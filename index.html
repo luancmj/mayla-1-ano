@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Mayla faz 1 ano</title>
+    <meta name="description" content="Consultoria">
+    <link rel="icon" href="img/nr-consutoria-logo-removebg-preview.png" sizes="32x32" type="image/png">
+    <!-- custom.css -->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- bootstrap.min.css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<!-- font-awesome -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    
+    <!-- AOS -->
+    <link rel="stylesheet" href="css/aos.css">
+</head>
+
+<body>
+    <video src="assets/videos/video_test.mp4" type="video/mp4" width="100%" height="100%"></video>
+    <button id="btn" style="display: none;">Play</button>
+
+    <script type="text/javascritp">
+        $(function (){
+            $('#btn').click();
+            
+            document.querySelector('button').addEventListener('click', () => {
+            document.querySelector('video').play();
+        });
+        });
+        
+        
+    </script>
+</body>
+
+</html>
